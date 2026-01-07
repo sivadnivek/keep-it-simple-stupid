@@ -1,0 +1,22 @@
+#command to make an mkv or mp4 considerably smaller while still maintaining a relatively decent quality
+#adjust "crf 26" to modulate the quality, 50 or so is about the max
+#if something i got was above 4GB, this allows me to put it on a flash drive and watch it on my shitty Samsung "smart" TV
+$ ffmpeg -i input.mkv -c:v libx265 -crf 26 -preset medium -c:a aac -b:a 128k output.mkv
+
+#turn your .flac files into your .mp3 files
+$ for f in *.flac; do ffmpeg -i "$f" -q:a 7 "${f%.flac}.mp3"; done
+
+#move your mp3 files into a folder where your flac files are because they dump out in the same dir as the flacs
+$ mkdir <whatever>
+$ mv *.mp3 <whatever>/
+$ cp *.jpg <whatever>/ #move the album art too because art is nice
+
+#tried to script some things but I dont think it really worked
+$ cat lookn.sh 
+#!/usr/bin/bash
+
+for d in ./*/; do
+	if [ -d "$d" ] -a [ (ls "$d" | grep flac | wc -l) -ge 1 ] then
+	for f in *.flac; do 'ffmpeg -i "$f" -q:a 7 "${f%.flac}.mp3"';
+	fi
+done
