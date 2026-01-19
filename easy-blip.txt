@@ -3,11 +3,7 @@
 ### it could also be easily daemonized so you dont have to worry about it
 ### probably could be nicely integrated into fail2ban as well
 
-### a bunch of sites have this info but don't forget to first make the damn tables and possible apt install ipset
-### ipset create blocklist hash:ip hashsize 4096
-### iptables -I INPUT -m set --match-set blocklist src -j DROP
-### iptables -I FORWARD -m set --match-set blocklist src -j DROP
-### still probably need to use sudo ... for the above
+### oh i already had this in here ope
 
 #regex for ip4s as "block list I P" stored as variable -- in bashrc for me
 $ echo "$BLIP"
