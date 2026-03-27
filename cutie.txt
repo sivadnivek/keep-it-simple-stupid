@@ -5,3 +5,7 @@
 # i mean, did it work at all? no! Would it ever work at all? I really don't think so, but I love it. Keep at it bro never change
 # legit this is the cutest attempt at an HTTP request I have ever seen. I don't think there is any chance, in almost any circumstance I've ever encountered that it could do anything at all.
 # it is, however, HIGHLY aspirational, and I really really respect that.
+
+# this goofball is amusing:
+91.202.233.8 - - [27/Mar/2026:13:27:48 +0000] "\x16\x03\x03\x00\xFE\x01\x00\x00\xFA\x03\x03nQ\xFB\xBE\x03 \x9B\x9C$\x88\x08\xB9\xDA\xCA\xC1J\x1FM\xF8y/{j\xD4\xAF\xB0\xB5\xE5\xD2\xD9\xC1\xD6\x00\x008\xC0,\xC0+\xCC\xA9\xC00\xCC\xA8\xC0/\x00\x9F\xCC\xAA\x00\xA3\x00\x9E\x00\xA2\xC0$\xC0(\xC0#\xC0'\x00k\x00j\x00g\x00@\xC0" 400 157 "-" "-" "-"
+# seemed to accomplish nothing
